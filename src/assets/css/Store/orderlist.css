@@ -1,0 +1,136 @@
+#orderList{
+  color: #616161;
+  margin-bottom: 48px;
+}
+.borderTB{
+  border-top: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  padding: 1rem;
+  overflow: hidden;
+}
+.newAddress{
+  text-align: center;
+  padding: 1rem 0;
+}
+.plus{
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.3rem;
+  border-radius: 50px;
+  color: #009fe7;
+  border: 3px solid #009fe7;
+  margin-bottom: 1rem;
+}
+.orderInfo{
+  padding: 0.5rem 1rem;
+  border-top: 1px solid #EEEEEE;
+}
+.orderInfo>span:first-child{
+  color: #009fe7;
+}
+
+/*=======显示收货地址===========*/
+.showAdd{
+  background-color: #F2F2F2;
+  overflow: hidden;
+}
+.add{
+  width: 100%;
+  border-top: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+  margin: 1rem 0;
+  background-color: #ffffff;
+}
+.addBox{
+  width: 90%;
+  margin: 1rem auto;
+  display: flex;
+  font-size: 1.1rem;
+}
+.addName>p:first-child{
+  float: left;
+  color: #000;
+}
+.addName>p:nth-child(2){
+  float: right;
+}
+.angleRight{
+  margin: auto;
+}
+.addName{
+  margin-right: 1rem;
+}
+.addName>div{
+  clear: both;
+}
+
+/*========订单组件=============*/
+#cartItem{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#cartItem>.cartImg{
+  width: 30%;
+}
+#cartItem>div:nth-child(2){
+  width: 65%;
+}
+.cartImg>img{
+  width: 100%;
+  border: 4px solid #f7c0be;
+}
+.price{
+  margin-top: 1.2rem;
+}
+#price{
+
+  float: left;
+}
+.orderCount{
+  float: right;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+}
+.goodsName{
+  font-size: 1.2rem;
+  color: #000;
+  margin-bottom: 0.1rem;
+}
+.yunfei{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.common{
+  height: 2.8rem;
+  font-size: 1.2rem;
+}
+.purchase{
+  color: #ffffff;
+  background-color: #009fe7;
+}
+
+.shopping{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.inputMessage{
+  width: 100%;
+}
+.payMoney{
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+.money{
+  font-size: 3rem;
+}
+.gray{
+  color: #7d7d7d;
+}
+
+
+

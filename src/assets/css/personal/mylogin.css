@@ -1,0 +1,21 @@
+#myLogin{
+  display: flex;
+  justify-content: center;
+}
+#myLogin>.login-input{
+  width:90%;
+  background-color: #7ecef4;
+  border-radius: 1%;
+  margin-top: 5%;
+  height: 36rem;
+  color: white;
+  text-align: center;
+  padding-top: 6rem;
+}
+.demo-hintText{
+  text-align: left;
+}
+.login-position{
+  margin-top: 3%;
+  color: white;
+}

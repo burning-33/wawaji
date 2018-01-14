@@ -1,0 +1,41 @@
+#personalIndex{
+  width: 100%;
+}
+#personalIndex>.edit{
+  color: #7ecef4;
+  text-align: right;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+#personalIndex>.edit>span{
+  margin-left: 2%;
+}
+#personalIndex>.headImg{
+  width: 5rem;
+  height:5rem;
+  border-radius: 5rem;
+  margin-left: 40%;
+  margin-top: 8%;
+}
+#personalIndex>.nickName{
+  text-align: center;
+  margin-top: 1rem;
+}
+#personalIndex>.disborder .icon{
+  font-size:3rem;
+  font-weight: 100;
+  color: #7ecef4;
+}
+
+#personalIndex>.disborder{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+#personalIndex>.disborder>.info{
+  outline: 1px solid #eee;
+  text-align: center;
+  width: 33.3%;
+  padding: 1rem 0 ;
+}
+

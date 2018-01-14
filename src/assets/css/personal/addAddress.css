@@ -1,0 +1,10 @@
+#addAddress{
+  width: 100%;
+}
+#addAddress p>span{
+  color: lightgray;
+  margin-left: 5%;
+}
+#addAddress .mu-switch{
+  margin-left: 45%;
+}

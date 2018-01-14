@@ -1,0 +1,48 @@
+#myAddress{
+  width: 100%;
+}
+.addressBorder{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.25);
+  border-top: 1px solid rgba(211, 211, 211, 0.25);
+  margin-top: 5%;
+  padding: 2%;
+}
+.a_default{
+  color: #f57474;
+  border: 1px solid #f7c0be;
+  font-size: smaller;
+  text-align: center;
+  border-radius: 1px;
+  width: 2rem;
+}
+.fontColor{
+  color:lightgrey;
+  height: 3.5rem;
+  width: 12rem;
+  font-size: small;
+}
+.setDefault{
+  border:1px solid #eee;
+  height: 2rem;
+  line-height: 2rem;
+  border-radius: 3%;
+  align-self:center
+}
+
+.icon1{
+  align-self:center ;
+}
+.newAddress{
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.mu-raised-button{
+  width: 100%;
+  color:#f57474 ;
+  background: white;
+  border: none;
+}

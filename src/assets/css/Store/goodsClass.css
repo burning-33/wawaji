@@ -1,0 +1,36 @@
+#goods{
+  margin-bottom: 4rem;
+}
+#goodsClass{
+  display: flex;
+  flex-flow: row wrap;
+}
+#goodsClass>div{
+  width: 50%;
+  /*border: 1px solid #EEEEEE;*/
+  text-align: center;
+  padding: 1rem 0;
+  box-shadow:-10px -10px 70px #e8e8e8 inset;
+}
+#goodsClass>div img{
+  width: 45%;
+}
+#goodsClass>div .goodsIcon{
+  width: 33%;
+  margin: 0.2rem 0;
+}
+#goodsClass>div>p:first-child{
+  color: #7ecef4;
+}
+
+.allGoods{
+  margin: 2rem auto;
+  width: 30%;
+  text-align: center;
+}
+.allGoods img{
+  width: 40%;
+}
+
+
+

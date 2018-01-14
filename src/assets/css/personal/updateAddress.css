@@ -1,0 +1,26 @@
+#updateAddress{
+  width:100%;
+}
+#updateAddress .inputs{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+#updateAddress .mu-text-field{
+  font-size: small;
+  width: 90%;
+
+}
+#updateAddress .saveAddress{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+#updateAddress .mu-raised-button{
+  width: 100%;
+  background: #f57474;
+  font-size: 14px;
+  color: white;
+}

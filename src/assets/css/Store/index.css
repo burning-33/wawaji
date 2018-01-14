@@ -1,0 +1,72 @@
+
+#index{
+  background-color: #f5f5f5;
+  color: #616161;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+.navBar{
+  background-color: #7ecef4;
+}
+.procedure{
+  background-color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-content: center;
+  width: 100%;
+  padding: 1rem;
+}
+.procedure>div{
+  width: 20%;
+  text-align: center;
+}
+.procedure>div:first-child{
+  color: #7ecef4;
+}
+.iconPro{
+  font-size: 3rem;
+}
+/*===============新品上市===========*/
+  .newBox{
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 0.1rem 0.5rem;
+    margin: 2rem auto;
+  }
+.newText{
+  overflow: hidden;
+  margin: 0.5rem;
+  border-bottom: 1px solid #f3f3f3;
+}
+.newText>p:first-child{
+  float: left;
+  font-size: 1.4rem;
+}
+.newText>p:nth-child(2){
+  float: left;
+  font-size: 1.2rem;
+  margin-left: 0.4rem;
+}
+.newText>p:last-child{
+  float: right;
+}
+.newImg img{
+  border-bottom: 1px solid #cecece;
+  width: 100%;
+}
+.newImg>div:first-child>img{
+  border-right: 1px solid #cecece;
+}
+.newImg>div:last-child>img{
+  border-right: 1px solid #fff;
+}
+.newImg{
+  display: flex;
+  flex-flow: row nowrap;
+
+}
+.newImg>div{
+  width: 50%;
+}

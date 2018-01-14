@@ -1,0 +1,57 @@
+.bottomBar{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.bottomActive{
+  color:red;
+  background-color: green;
+}
+/*修改个人信息页面  上滑出弹框样??*/
+.demo-popup-bottom{
+  width: 100%;
+  max-width: 575px;
+  text-align: center;
+}
+/*登录页面提示文字样式*/
+.demo-hintText{
+  text-align: left;
+  color: white;
+  margin-left: 5%;
+}
+/*登录页面登录按钮样式*/
+.demo-login{
+  color: white;
+}
+/*充???页面弹框样??*/
+.demo-mu-dialog{
+  width: 60%;
+}
+.mu-dialog-actions{
+  padding: 0;
+}
+.mu-dialog-body{
+  padding:5%;
+}
+
+.demo-nickName{
+  color: #7ecef4;
+  background-color:#7ecef4;
+}
+
+.bottomBar{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.bottomActive{
+  color:red;
+  background-color: green;
+}
+
+
+
+
+

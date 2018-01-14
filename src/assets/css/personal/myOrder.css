@@ -1,0 +1,60 @@
+#myOrder{
+  width: 100%;
+}
+#myOrder>.orderList{
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.order-content,.order-footer{
+  display: flex;
+  justify-content: space-around;
+  /*border: 1px solid red;*/
+}
+.order-contet{
+  display: flex;
+}
+.order-content{
+  margin-top: 4%;
+  padding:   2% ;
+  border-bottom: 1px solid #eee;
+}
+.order-content img{
+  width: 5rem;
+  height: 5rem;
+}
+.demo-checkbox{
+  margin-top: 8%;
+}
+.order-gname{
+  color: #7ecef4;
+}
+.order-gprice{
+  margin-top: 12%;
+  margin-left: -24%;
+}
+.order-orderState,.order-payState{
+  border: 1px solid #7ecef4;
+  width: 4rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.order-orderState{
+    margin-top: 1.5%;
+   margin-right: 9%;
+}
+.order-payState{
+  margin-top: 12%;
+  margin-left: -28%;
+}
+.order-footer{
+  margin-top: 30%;
+}
+.demo-checkbox1{
+  margin-top: 1.5%;
+}
+.order-raised-button{
+  background-color: #7ecef4;
+}

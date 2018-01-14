@@ -1,0 +1,58 @@
+#myMoney{
+  width: 100%;
+  font-size: 14px;
+}
+.chargeCoins,.payment{
+  margin-left: 4%;
+}
+.subCoins,.payment,.payWay,.rechargeCoin{
+  margin-top: 5%;
+}
+#myMoney>.subCoins{
+  margin-left:  70%;
+}
+#myMoney>.recharge{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#myMoney>.recharge .rechargeCoin{
+  border: 1px solid #7ecef4;
+  border-radius: 5%;
+  width: 6.5rem;
+  text-align: center;
+  color:#7ecef4 ;
+}
+.myStyle{
+  background-color: #7ecef4;
+  color: white !important;
+}
+#myMoney>.recharge div p{
+ padding: 2%;
+}
+#myMoney>.recharge div p:nth-of-type(2){
+ font-size: x-small;
+}
+.payWay{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15%;
+}
+
+.pay-content{
+  border: 1px solid #eee;
+  border-radius: 5%;
+  width: 6.5rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+}
+.borderStyle{
+  border: 1px solid #7ecef4;
+}
+.demo-flat-button{
+  width: 100%;
+  background-color: #7ecef4;
+  color: white;
+}
+

@@ -1,0 +1,42 @@
+#editInfo{
+  width: 100%;
+}
+#editInfo img{
+  width: 2rem;
+  height: 2rem;
+  margin-left: 60%;
+  border-radius: 100%;
+}
+
+#editInfo .textBorder{
+  display: flex;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+#editInfo>.textBorder>.mu-raised-button{
+ width: 80%;
+}
+.mu-appbar  {
+  color: black;
+  background-color: white;
+  height: 100%;
+  font-size: 14px;
+}
+#editInfo>.saveAddress{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+#editInfo>.saveAddress>.mu-raised-button{
+  width: 100%;
+  background: #f57474;
+  font-size: 14px;
+  color: white;
+}
+/*.demo-nickName{*/
+  /*border:1px solid #f4524c;*/
+  /*color: #f44351;*/
+/*}*/

@@ -1,0 +1,42 @@
+#goodsList{
+  background-color: #EEEEEE;
+  margin-bottom: 3.5rem;
+}
+.goods{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+.goods>div{
+  width: 45%;
+  margin: 0.8rem 0;
+}
+
+/*===========GoodsContent组件=========*/
+#GoodsContent{
+  position: relative;
+  /*border: 1px solid #ffffff;*/
+  overflow: hidden;
+}
+
+#GoodsContent img{
+  width: 100%;
+}
+
+.price>p:first-child{
+  float: left;
+  color: #808080;
+  font-size: 14px;
+}
+.price>p:last-child{
+  float: right;
+}
+.icon-cart{
+  position: absolute;
+  top: 0.3rem;
+  right: 0.3rem;
+  color: #f7c0be;
+  font-size: 1.2rem;
+}

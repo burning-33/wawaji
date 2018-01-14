@@ -1,0 +1,37 @@
+#myPrize{
+  width: 100%;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#myPrize>.contentBorder{
+  width: 95%;
+  border-radius: 2%;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+#myPrize .content>.imgBorder{
+  text-align: center;
+}
+#myPrize .content{
+  outline: 1px solid #eee;
+  padding: 2%;
+  /*text-align: center;*/
+  width:50%;
+}
+
+#myPrize .content .textSize{
+  font-size: 14px;
+}
+
+#myPrize .content img{
+  width:6rem;
+  height: 6rem;
+}
+.prize-demo{
+  width: 100%;
+}
